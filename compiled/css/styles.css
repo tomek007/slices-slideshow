@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+}
+
+#container ul#banner {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#container ul#banner li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#container ul#banner li img {
+  visibility: hidden;
+}
+
+#container ul#banner li canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
